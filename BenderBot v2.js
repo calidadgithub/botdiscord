@@ -37,4 +37,10 @@ client.on("message", (message) => {
     }
   });
 
+  client.on("message", (message) => {
+    if (message.content.startsWith("meme")) {
+      message.channel.send("Toma momazo", {
+        file: "http://link.to/your.file"
+    }
+  });
 client.login("NTM0MzIwMjc1NzEwNDEwNzY2.Dx344g.i-pQZFo7Dx93XVjjQ9rcZsyCi5k");

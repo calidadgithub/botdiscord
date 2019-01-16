@@ -5,11 +5,6 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
  
-client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("me cago en tus putos muertos!");
-  }
-});
 
 client.on("message", (message) => {
   if (message.content.startsWith("D6")) {
@@ -34,6 +29,13 @@ client.on("message", (message) => {
       var num;
       num =Math.trunc((Math.random() * 20) + 1);
       message.channel.send(num);
+    }
+  });
+
+ client.on("message", (message) => {
+    if (message.content.startsWith("help")) {
+    
+      message.channel.send("Puedes utilizar los comandos: meme, D4, D6 y D20");
     }
   });
 

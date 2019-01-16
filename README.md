@@ -39,12 +39,13 @@ on Windows systems). The default command is “node.”</p>
 
 <p>Head over to your terminal, and run the following command: </p>
 
+<pre>nodemon --inspect index.js</pre>
+
 <p> This starts up the script, and also fires up the Chrome debugger, which you can access by
 typing chrome://inspect/  into Chrome’s Omnibar and then opening “dedicated devtools for Node.” </p>
 
 Now just add the bot to your discord server.
 
-<pre>nodemon --inspect index.js</pre>
 
 
 ## Command details

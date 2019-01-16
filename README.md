@@ -64,9 +64,9 @@ Aliases: D4
 
 #### D6
 
-roll a dice of 4
+roll a dice of 6
 
-Aliases: D4
+Aliases: D6
 
 #### D20
 

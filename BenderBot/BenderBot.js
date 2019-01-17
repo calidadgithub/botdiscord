@@ -6,8 +6,8 @@ client.on("ready", () => {
 });
  
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("me cago en tus putos muertos!");
+  if (message.content.startsWith("Help")) {
+    message.channel.send("Estos son los comandos de que dispongo: \n 1. D4 -> Lanzo un dado de 4 caras. \n 2. D6 -> Lanzo un dado de 6 caras. \n 3. D20 -> Lanzo un dado de 20 caras. \n 4. meme -> Te lanzo un memazo.");
   }
 });
 

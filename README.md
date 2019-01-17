@@ -5,7 +5,7 @@ A JS bot for [Discord](https://discordapp.com/) using the [node.js module that a
 If you'd like to run your own version of this project check the [installation part](#run-the-bot-yourself)
 
 You can play/test it on discord 
-[![Discord](https://discordapp.com/api/guilds/365760529899192322/widget.png)](https://discordapp.com/oauth2/authorize?client_id="NTM0MzIwMjc1NzEwNDEwNzY2.Dx344g.i-pQZFo7Dx93XVjjQ9rcZsyCi5k&scope=bot)
+[![Discord](https://discordapp.com/api/guilds/365760529899192322/widget.png)](https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot)
 
 
 ### Commands

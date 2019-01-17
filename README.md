@@ -34,7 +34,7 @@ on Windows systems). The default command is “node.”</p>
  
 <p>You also will need installing the &nbsp;discord.js tool.You can install it by running the following command:</p>
 
-<pre>npm install discord.js/pre>
+<pre>npm install discord.js</pre>
 
 <p>You’ll need a text editor. You could just use notepad, but we recommend either <a href="http://atom.io">Atom</a> or <a href="https://code.visualstudio.com/">VSC</a>.</p>
 

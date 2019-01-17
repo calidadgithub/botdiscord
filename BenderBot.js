@@ -5,6 +5,11 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
  
+client.on("message", (message) => {
+  if (message.content.startsWith("Help")) {
+    message.channel.send("Estos son los comandos de que dispongo: \n 1. D4 -> Lanzo un dado de 4 caras. \n 2. D6 -> Lanzo un dado de 6 caras. \n 3. D20 -> Lanzo un dado de 20 caras. \n 4. meme -> Te lanzo un memazo.");
+  }
+});
 
 client.on("message", (message) => {
   if (message.content.startsWith("D6")) {
@@ -29,13 +34,6 @@ client.on("message", (message) => {
       var num;
       num =Math.trunc((Math.random() * 20) + 1);
       message.channel.send(num);
-    }
-  });
-
- client.on("message", (message) => {
-    if (message.content.startsWith("help")) {
-    
-      message.channel.send("Puedes utilizar los comandos: meme, D4, D6 y D20");
     }
   });
 

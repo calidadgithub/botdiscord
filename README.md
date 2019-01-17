@@ -44,8 +44,7 @@ on Windows systems). The default command is “node.”</p>
 
 <p> This starts up the script and start the bot </p>
 
-<p> Now just add the bot to your discord server using this URL </p> 
-[Discord](https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot)
+<p> Now just add the bot to your discord server using this URL: </p> https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot
 
 
 

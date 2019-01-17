@@ -18,7 +18,7 @@ Current list of all available commands. See below for a more detailed list
 
 Commands | | | | |
 --- | --- | ---| ---| ---
-[meme](#meme) | [ban](#ban) |[D4](#D4) | [D6](#D6) | [D20](#D20) | [help](#help)  | 
+[meme](#meme) ||[D4](#D4) | [D6](#D6) | [D20](#D20) | [help](#help)  | 
 
 
 

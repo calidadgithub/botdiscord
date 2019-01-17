@@ -32,7 +32,7 @@ Download it, install it, and make sure it works in a terminal (or Command Prompt
 on Windows systems). The default command is “node.”</p>
  
  
-<p>You also will need installing the &nbsp;discord.js tool.You can install it by running the following command:</p>
+<p>You also will need installing the &nbsp;<a href="https://discord.js.org/#/">Discord.js</a> module to interact with the Discord API.You can install it by running the following command:</p>
 
 <pre>npm install discord.js</pre>
 
@@ -44,8 +44,7 @@ on Windows systems). The default command is “node.”</p>
 
 <p> This starts up the script and start the bot </p>
 
-<p> Now just add the bot to your discord server using this URL: </p> https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot
-
+<p> Now just add the bot to your discord server using this <a href="https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot">URL</a></p>
 
 
 

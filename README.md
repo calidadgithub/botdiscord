@@ -30,21 +30,22 @@ Continue with the following steps.
 <p>To run Javascript code outside of a webpage, you need <a href="https://nodejs.org/en/">Node</a>.
 Download it, install it, and make sure it works in a terminal (or Command Prompt, as all of this should work 
 on Windows systems). The default command is “node.”</p>
+ 
+ 
+<p>You also will need installing the &nbsp;discord.js tool.You can install it by running the following command:</p>
 
-<p>We also recommend installing the&nbsp;nodemon tool. It’s a command line app that monitors your bot’s code and restarts automatically on changes. You can install it by running the following command:</p>
-
-<pre>npm i -g nodemon</pre>
+<pre>npm install discord.js/pre>
 
 <p>You’ll need a text editor. You could just use notepad, but we recommend either <a href="http://atom.io">Atom</a> or <a href="https://code.visualstudio.com/">VSC</a>.</p>
 
-<p>Head over to your terminal, and run the following command: </p>
+<p>Head over to your terminal, and run the following command at the path of the project: </p>
 
-<pre>nodemon --inspect BenderBot.js</pre>
+<pre>node BenderBot.js</pre>
 
-<p> This starts up the script, and also fires up the Chrome debugger, which you can access by
-typing chrome://inspect/  into Chrome’s Omnibar and then opening “dedicated devtools for Node.” </p>
+<p> This starts up the script and start the bot </p>
 
-Now just add the bot to your discord server.
+<p> Now just add the bot to your discord server using this URL [![Discord](https://discordapp.com/api/guilds/365760529899192322/widget.png)](https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot)</p>
+
 
 
 

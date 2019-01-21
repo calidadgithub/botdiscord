@@ -16,7 +16,7 @@ For a list of commands in discord the **help** command can be used.
 
 Current list of all available commands. See below for a more detailed list
 
-Commands | | | | |
+Commands | | | | | 
 --- | --- | ---| ---| ---
 [meme](#meme) |[help](#help)|[D4](#D4) | [D6](#D6) | [D20](#D20) | [search](#search) |  
 

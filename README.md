@@ -18,7 +18,7 @@ Current list of all available commands. See below for a more detailed list
 
 Commands | | | | |
 --- | --- | ---| ---| ---
-[meme](#meme) |[help](#help)|[D4](#D4) | [D6](#D6) | [D20](#D20) | [help](#help)  | 
+[meme](#meme) |[help](#help)|[D4](#D4) | [D6](#D6) | [D20](#D20) | [search](#search)  | 
 
 
 
@@ -75,7 +75,14 @@ Aliases: D6
 
 #### D20
 
-roll a dice of D20
+roll a dice of 20
+
+Aliases: D20
+
+
+#### search [videoname]
+
+search a video with videoname on YT
 
 Aliases: D20
 

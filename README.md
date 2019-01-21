@@ -44,6 +44,9 @@ on Windows systems). The default command is “node.”</p>
 
 <p> This starts up the script and start the bot </p>
 
+ 
+<p>You also will need installing the &nbsp;<a href="https://hypercoder2975.github.io/simple-youtube-api/master/index.html">Youtube simple API </a> This library is designed to greatly simplify interacting with the basic functions of the YouTube API. It deals with viewing/searching videos, playlists, and channels this will be needed to some of our commands .</p>
+
 <p> Now just add the bot to your discord server using this <a href="https://discordapp.com/oauth2/authorize?client_id=534320275710410766&scope=bot">URL</a></p>
 
 

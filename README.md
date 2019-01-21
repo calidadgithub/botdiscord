@@ -45,7 +45,8 @@ on Windows systems). The default command is “node.”</p>
 <p> This starts up the script and start the bot </p>
 
  
-<p>You also will need installing the &nbsp;<a href="https://hypercoder2975.github.io/simple-youtube-api/master/index.html">Youtube simple API </a> This library is designed to greatly simplify interacting with the basic functions of the YouTube API. It deals with viewing/searching videos, playlists, and channels this will be needed to some of our commands.You can install it by running the following command: .</p>
+<p>You also will need installing the &nbsp;<a href="https://hypercoder2975.github.io/simple-youtube-api/master/index.html">Youtube simple API </a>.This library is designed to greatly simplify interacting with the basic functions of the YouTube API. It deals with viewing/searching videos, playlists, and channels this will be needed to some of our commands.
+You can install it by running the following command: .</p>
 
 <pre>npm install simple-youtube-api</pre>
 

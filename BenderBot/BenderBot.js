@@ -1,13 +1,18 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
- 
+const YouTube = require('simple-youtube-api');
+const youtube = new YouTube('AIzaSyAJC0oIgghMVdSfG1FJmyGqeA-y1E6epFo');
+
+
 client.on("ready", () => {
   console.log("I am ready!");
 });
+
+
  
 client.on("message", (message) => {
-  if (message.content.startsWith("Help")) {
-    message.channel.send("Estos son los comandos de que dispongo: \n 1. D4 -> Lanzo un dado de 4 caras. \n 2. D6 -> Lanzo un dado de 6 caras. \n 3. D20 -> Lanzo un dado de 20 caras. \n 4. meme -> Te lanzo un memazo.");
+  if (message.content.startsWith("help")) {
+    message.channel.send("Estos son los comandos de que dispongo: \n 1. D4 -> Lanzo un dado de 4 caras. \n 2. D6 -> Lanzo un dado de 6 caras. \n 3. D20 -> Lanzo un dado de 20 caras. \n 4. meme -> Te lanzo un memazo.\n 5. search 'nombre video'-> busco en YouTube 'nombre video' ");
   }
 });
 
@@ -36,6 +41,15 @@ client.on("message", (message) => {
       message.channel.send(num);
     }
   });
+  client.on("message", (message) => {
+    if (message.content.startsWith("search")) {
+      var url = message.content.slice(6, )
+
+      youtube.searchVideos(url,1)
+      .then(results => {
+        message.channel.send(results[0].shortURL)  
+      }).catch(console.error);
+  }});
 
   client.on("message", (message) => {
     if (message.content.startsWith("meme")) {

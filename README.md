@@ -10,7 +10,7 @@ You can play/test it on discord
 
 ### Commands
 
-Commands are prefixed with a " " 
+Commands arent prefixed with anything just write the commands. 
 For a list of commands in discord the **help** command can be used.
 
 
